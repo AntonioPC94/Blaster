@@ -21,7 +21,7 @@ Como se observa en la imagen anterior, a primera vista ninguno de los servicios 
 
 Aun así, vamos a empezar a escarbar en cada uno de ellos a ver qué podemos sacar.
 
-Empezando por el puerto 80, podemos observar que contiene una página web llamada: ISS Windows Server.
+Empezando por el puerto 80, podemos observar que contiene una página web llamada: IIS Windows Server.
 
 ![BLTR4]()
 
