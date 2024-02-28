@@ -4,3 +4,7 @@
 
 Lo primero que haremos, será lanzar un NMAP para ver qué puertos tiene abiertos la máquina:
 
+![BLTR1]()
+![BLTR2]()
+
+
