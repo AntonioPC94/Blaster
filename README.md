@@ -64,7 +64,7 @@ Bien, ahora iremos a por el puerto 3389, al cual nos intentaremos conectar utili
 
 ![BLTR13](https://github.com/AntonioPC94/Blaster/blob/805faac491494b1ac605ef85c1c3839fa8b020bf/Img/BLTR13.png)
 
-Cuando nos intentemos conectar, el programa nos pedirá aceptemos el certificado del dominio si es que nos queremos conectar a él.
+Cuando nos intentemos conectar, el programa nos pedirá que aceptemos el certificado del dominio si es que nos queremos conectar a él.
 
 ![BLTR14](https://github.com/AntonioPC94/Blaster/blob/805faac491494b1ac605ef85c1c3839fa8b020bf/Img/BLTR14.png)
 
