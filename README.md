@@ -54,4 +54,32 @@ Como observamos en la siguiente imagen, estamos dentro del panel de administraci
 
 ![BLTR11](https://github.com/AntonioPC94/Blaster/blob/c36ac88f386589d0809b235a4b29ac9e8803823c/Img/BLTR11.png)
 
+Si nos vamos al apartado "Usuarios" de la página, podremos encontrar el correo electrónico del único usuario creado y podremos verificar de que este es el administrador de dicha página.
+
+![BLTR12]()
+
+Bien, ahora iremos a por el puerto 3389, al cual nos intentaremos conectar utilizando un programa llamado Remmina. Una vez lo instalemos, lo ejecutaremos e introduciremos la dirección IP de la máquina objetivo para poder conectarnos a ella.
+
+![BLTR13]()
+
+Cuando nos intentemos conectar, el programa nos pedirá aceptemos el certificado del dominio si es que nos queremos conectar a él.
+
+![BLTR14]()
+
+Una vez hayamos aceptado el certificado, el programa nos pedirá las credenciales del usuario al que nos queremos conectar y el nombre del dominio al que pertenece.
+
+Como las únicas credenciales que tenemos son las que nos encontramos anteriormente en la web, vamos a probarlas aquí también por si acaso funcionasen.
+
+![BLTR15]()
+
+Nota: Para encontrar el nombre del dominio, podemos utilizar el siguiente módulo de Metasploit: scanner/rdp/rdp_scanner
+
+![BLTR16]()
+
+Como observamos en la imagen anterior, hemos conseguido acceder al sistema objetivo. En el escritorio del usuario localizaremos un fichero de texto llamado "user.txt", el cual tendrá la primera flag.
+
+![BLTR17]()
+
+Indagando en el sistema objetivo, concretamente en el historial de navegación de Internet Explorer, encontramos que el usuario estuvo buscando información acerca de un CVE, esto nos podría venir bien a la hora de seguir elevando nuestros privilegios en el sistema.
+
 
