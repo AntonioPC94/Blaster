@@ -54,7 +54,7 @@ Como observamos en la siguiente imagen, estamos dentro del panel de administraci
 
 ![BLTR11](https://github.com/AntonioPC94/Blaster/blob/c36ac88f386589d0809b235a4b29ac9e8803823c/Img/BLTR11.png)
 
-Si nos vamos al apartado "Usuarios" de la página, podremos encontrar el correo electrónico del único usuario creado y podremos verificar de que este es el administrador de dicha página.
+Si nos vamos al apartado "Usuarios" de la página, podremos encontrar el correo electrónico del único usuario creado y podremos verificar que este es el administrador de dicha página.
 
 ![BLTR12]()
 
