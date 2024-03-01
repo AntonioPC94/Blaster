@@ -60,6 +60,8 @@ Si nos vamos al apartado "Usuarios" de la página, podremos encontrar el correo 
 
 Bien, ahora iremos a por el puerto 3389, al cual nos intentaremos conectar utilizando un programa llamado Remmina. Una vez lo instalemos, lo ejecutaremos e introduciremos la dirección IP de la máquina objetivo para poder conectarnos a ella.
 
+Nota: A partir de aquí, la dirección IP de la máquina objetivo cambia porque la he abierto en otra red distinta.
+
 ![BLTR13](https://github.com/AntonioPC94/Blaster/blob/805faac491494b1ac605ef85c1c3839fa8b020bf/Img/BLTR13.png)
 
 Cuando nos intentemos conectar, el programa nos pedirá aceptemos el certificado del dominio si es que nos queremos conectar a él.
