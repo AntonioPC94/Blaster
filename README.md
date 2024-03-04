@@ -106,7 +106,7 @@ La página que se nos abrirá a continuación, estará corriendo sobre un proces
 
 ![BLTR21](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR21.png)
 
-A pesar del error, vamos a descargarnos el contenido de la página web al completo yéndonos a las opciones del navegador (Engranaje) y luego al apartado "File", en el cual encontraremos la opción "Save as".
+A pesar del error, vamos a continuar con el proceso como si quisiéramos descargar la página web completa. Para ello, nos dirigiremos a las opciones del navegador (Engranaje) y luego al apartado 'File', donde encontraremos la opción 'Save as'.
 
 ![BLTR22](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR22.png)
 
