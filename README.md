@@ -82,6 +82,6 @@ Como observamos en la imagen anterior, hemos conseguido acceder al sistema objet
 
 ![BLTR17](https://github.com/AntonioPC94/Blaster/blob/805faac491494b1ac605ef85c1c3839fa8b020bf/Img/BLTR17.png)
 
-Indagando en el sistema objetivo, concretamente en el historial de navegación de Internet Explorer, encontramos que el usuario estuvo buscando información acerca de un CVE, concretamente el CVE-2019-1388. Esto nos podría venir bien a la hora de seguir elevando nuestros privilegios en el sistema.
+Indagando en el sistema objetivo, concretamente en el historial de navegación de Internet Explorer, encontramos que el usuario estuvo buscando información acerca de un CVE, el CVE-2019-1388. Esto nos podría venir bien a la hora de seguir elevando nuestros privilegios en el sistema.
 
 
