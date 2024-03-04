@@ -88,41 +88,41 @@ También en el escritorio de la máquina vulnerada, encontraremos un ejecutable 
 
 Así que, vamos a utilizarlo para ver si podemos ganar una shell con privilegios elevados en el sistema objetivo.
 
-![BLTR18]()
+![BLTR18](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR18.png)
 
 Lo primero que haremos, será asegurarnos de que el fichero tiene los permisos suficientes como para ser ejecutado en el sistema.
 
 Una vez nos hayamos asegurado de lo anterior, lo abriremos con permisos de administrador, abriremos el desplegable que nos sale y seleccionaremos la opción marcada en la siguiente imagen:
 
-![BLTR19]()
+![BLTR19](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR19.png)
 
 Bien, una vez hayamos clickado sobre dicha opción, se nos abrirá otra ventanita que nos mostrará información sobre el certificado de dicho ejecutable.
 
 A continuación, le daremos a la siguiente opción y esperaremos a que se nos abra el navegador que traiga por defecto la máquina, que seguramente será Internet Explorer.
 
-![BLTR20]()
+![BLTR20](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR20.png)
 
 La página que se nos abrirá a continuación, estará corriendo sobre un proceso con privilegios elevados.
 
-![BLTR21]()
+![BLTR21](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR21.png)
 
 A pesar del error, vamos a descargarnos el contenido de la página web al completo yéndonos a las opciones del navegador (Engranaje) y luego al apartado "File", en el cual encontraremos la opción "Save as".
 
-![BLTR22]()
+![BLTR22](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR22.png)
 
 Como se observa en la imagen anterior, nos salta un error que nos indica que la dirección donde queremos guardar dicho archivo, no está disponible, eso nos dará igual ya que lo que queremos nosotros es solicitar una shell con permisos elevados. Para ello, la llamaremos desde la misma ventana del "Guardar como".
 
-![BLTR23]()
+![BLTR23](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR23.png)
 
 Una vez tengamos todos los ficheros de dicha carpeta a la vista, buscaremos el programa "cmd", le daremos click derecho y lo abriremos.
 
-![BLTR24]()
+![BLTR24](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR24.png)
 
-![BLTR25]()
+![BLTR25](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR25.png)
 
 Una vez abierto, veremos como tendremos una shell con permisos elevados.
 
-![BLTR26]()
+![BLTR26](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR26.png)
 
 Otra vía que se podría seguir para explotar esta máquina, sería utilizando un exploit de Metasploit llamado: 
 
