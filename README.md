@@ -124,5 +124,42 @@ Una vez abierto, veremos como tendremos una shell con permisos elevados.
 
 ![BLTR26](https://github.com/AntonioPC94/Blaster/blob/0efa28c001eb90248e3b3b55c28ab9909515646a/Img/BLTR26.png)
 
-Otra vía que se podría seguir para explotar esta máquina, sería utilizando un exploit de Metasploit llamado: 
+Ahora nuestro objetivo es encontrar la flag de "root". Para ello, nos iremos directamente al "Escritorio" del usuario Administrador.
+
+![BLTR27]()
+
+Como se observa en la imagen anterior, en el "Escritorio" de dicho usuario se encuentra la flag.
+
+Por último, listaremos su contenido utilizando el comado "type".
+
+![BLTR28]()
+
+Otra vía que se podría seguir para explotar esta máquina, sería utilizando un exploit de Metasploit llamado: exploit/multi/script/web_delivery
+
+El exploit te permite ejecutar código malicioso de manera remota gracias al payload que alojará en el servidor HTTP de la máquina objetivo.
+
+Bien, ahora que sabemos lo que hace, vamos a configurar las distintas opciones que nos pide y lo vamos a lanzar sobre la máquina objetivo.
+
+Lo primero que haremos, será establecer el target a "PSH", ya que el sistema operativo de la máquina objetivo es Windows y necesitamos que el script que se va a descargar el payload una vez esté dentro de la máquina, sea compatible con dicho sistema objetivo.
+
+![BLTR29]()
+
+Comprobamos que el target se ha modificado correctamente utilizando el comando "show targets".
+
+![BLTR30]()
+
+Ahora configuramos el LHOST y el LPORT:
+
+![BLTR31]()
+
+Por último, setearemos el siguiente payload: windows/meterpreter/reverse_http.
+
+![BLTR32]()
+
+Bien, ahora usaremos "run -j" para lanzar el exploit como un "job".
+
+
+
+
+
 
