@@ -158,8 +158,23 @@ Por último, setearemos el siguiente payload: windows/meterpreter/reverse_http.
 
 Bien, ahora usaremos "run -j" para lanzar el exploit como un "job".
 
+![BLTR33]()
 
+Como se observa en la imagen anterior, no hemos conseguido establecer una shell porque todavía queda que el usuario de la máquina objetivo ejecute el comando indicado en una PSH.
 
+Entonces, ahora lo que haremos , será meter el contenido del comando en un fichero de texto y lo vamos a exponer en un servidor web hecho con Python3 para simular que el usuario se lo descarga y posteriormente lo ejecuta.
+
+Desplegamos el servidor web:
+
+![BLTR34]()
+
+Nos descargamos el fichero malicioso:
+
+![BLTR35]()
+
+Hacemos doble click sobre el fichero malicioso, copiamos su contenido y lo pegamos dentro de la shell con privilegios elevados que obtuvimos anteriormente.
+
+Nota: A la hora de ejecutar el comando en la shell, se me cierra y no me da la "Meterpreter". Por lo tanto, tampoco podremos crear persistencia en la máquina, ya que no tenemos acceso a dicha "Meterpreter".
 
 
 
