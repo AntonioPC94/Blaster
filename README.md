@@ -142,23 +142,23 @@ Bien, ahora que sabemos lo que hace, vamos a configurar las distintas opciones q
 
 Lo primero que haremos, será establecer el target a "PSH", ya que el sistema operativo de la máquina objetivo es Windows y necesitamos que el script que se va a descargar el payload una vez esté dentro de la máquina, sea compatible con dicho sistema objetivo.
 
-![BLTR29](https://github.com/AntonioPC94/Blaster/blob/92e69794599c7160f0aeda7ceadf50219a97d3b2/Img/BLTR29.png)
+![BLTR29](https://github.com/AntonioPC94/Blaster/blob/cebfd47a6de39bfa1aaf1f97e95551803f741c5c/Img/BLTR29.png)
 
 Comprobamos que el target se ha modificado correctamente utilizando el comando "show targets".
 
-![BLTR30](https://github.com/AntonioPC94/Blaster/blob/92e69794599c7160f0aeda7ceadf50219a97d3b2/Img/BLTR30.png)
+![BLTR30](https://github.com/AntonioPC94/Blaster/blob/cebfd47a6de39bfa1aaf1f97e95551803f741c5c/Img/BLTR30.png)
 
 Ahora configuramos el LHOST y el LPORT:
 
-![BLTR31](https://github.com/AntonioPC94/Blaster/blob/92e69794599c7160f0aeda7ceadf50219a97d3b2/Img/BLTR31.png)
+![BLTR31](https://github.com/AntonioPC94/Blaster/blob/cebfd47a6de39bfa1aaf1f97e95551803f741c5c/Img/BLTR31.png)
 
 Por último, setearemos el siguiente payload: windows/meterpreter/reverse_http.
 
-![BLTR32](https://github.com/AntonioPC94/Blaster/blob/92e69794599c7160f0aeda7ceadf50219a97d3b2/Img/BLTR32.png)
+![BLTR32](https://github.com/AntonioPC94/Blaster/blob/cebfd47a6de39bfa1aaf1f97e95551803f741c5c/Img/BLTR32.png)
 
 Bien, ahora usaremos "run -j" para lanzar el exploit como un "job".
 
-![BLTR33](https://github.com/AntonioPC94/Blaster/blob/92e69794599c7160f0aeda7ceadf50219a97d3b2/Img/BLTR33.png)
+![BLTR33](https://github.com/AntonioPC94/Blaster/blob/cebfd47a6de39bfa1aaf1f97e95551803f741c5c/Img/BLTR33.png)
 
 Como se observa en la imagen anterior, no hemos conseguido establecer una shell porque todavía queda que el usuario de la máquina objetivo ejecute el comando indicado en una PSH.
 
@@ -166,11 +166,11 @@ Entonces, ahora lo que haremos , será meter el contenido del comando en un fich
 
 Desplegamos el servidor web:
 
-![BLTR34](https://github.com/AntonioPC94/Blaster/blob/92e69794599c7160f0aeda7ceadf50219a97d3b2/Img/BLTR34.png)
+![BLTR34](https://github.com/AntonioPC94/Blaster/blob/cebfd47a6de39bfa1aaf1f97e95551803f741c5c/Img/BLTR34.png)
 
 Nos descargamos el fichero malicioso:
 
-![BLTR35](https://github.com/AntonioPC94/Blaster/blob/92e69794599c7160f0aeda7ceadf50219a97d3b2/Img/BLTR35.png)
+![BLTR35](https://github.com/AntonioPC94/Blaster/blob/cebfd47a6de39bfa1aaf1f97e95551803f741c5c/Img/BLTR35.png)
 
 Hacemos doble click sobre el fichero malicioso, copiamos su contenido y lo pegamos dentro de la shell con privilegios elevados que obtuvimos anteriormente.
 
