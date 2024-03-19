@@ -174,7 +174,7 @@ Nos descargamos el fichero malicioso:
 
 Hacemos doble click sobre el fichero malicioso, copiamos su contenido y lo pegamos dentro de la shell con privilegios elevados que obtuvimos anteriormente.
 
-Nota: A la hora de ejecutar el comando en la shell, se me cierra y no me da la "Meterpreter". Por lo tanto, tampoco puedocrear persistencia en la máquina, ya que no tengo acceso a dicha "Meterpreter".
+Nota: A la hora de ejecutar el comando en la shell, se me cierra y no me da la "Meterpreter". Por lo tanto, tampoco puedo crear persistencia en la máquina, ya que no tengo acceso a dicha "Meterpreter".
 
 
 
